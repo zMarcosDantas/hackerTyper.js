@@ -46,7 +46,7 @@ The constructor can receive a second parameter that should be a config json
 
 ```js
 new hTyper(element, {
-    chars: "abcdefghijklmnopqrstuvwxyz" // chars that you want
+    chars: "abcdefghijklmnopqrstuvwxyz", // chars that you want
     repetitions: 10, // the number of repetitions that will happen on each char
     delay: 30, // repetition delay on each char
     startDelay: 0, // waiting time before starting effect
