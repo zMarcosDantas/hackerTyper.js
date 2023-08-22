@@ -7,7 +7,7 @@ HackerTyper.js is a javascript script that creates a cool hacking effect on text
 
 ## Installation
 
-* CDN (jsdelivr): 
+CDN (jsdelivr): 
 
 ```js
 <script src="https://cdn.jsdelivr.net/gh/zMarcosDantas/hackerTyper.js@latest/dist/hTyper.min.js"></script>
@@ -38,11 +38,11 @@ document.querySelectorAll(".hTyping").forEach(element => {
 });     
 ```
 
-* You can pass the element parameter to constructor as HTMLElement or query string.  
+You can pass the element parameter to constructor as HTMLElement or query string.  
 
 ## Customization
 
-* The constructor can receive a second parameter that should be a config json
+The constructor can receive a second parameter that should be a config json
 
 ```js
 new hTyper(element, {
