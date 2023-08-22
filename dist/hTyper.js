@@ -49,11 +49,10 @@ class hTyper {
         const loopingInterval = setInterval(() => {
             this.element.innerText = defaultText.split("")
             .map((char, j) => {
-                if(j < i) {
+                if(j < i || char == " ") {
                     return char;
                 }
 
-                if(char == " ") return " "; 
                 let result = chars[Math.floor(Math.random() * chars.length)];
 
                 if(this.forceUppercase || char == char.toUpperCase()) return result.toUpperCase();
